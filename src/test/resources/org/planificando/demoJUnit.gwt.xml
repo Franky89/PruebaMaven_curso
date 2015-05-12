@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="demo">
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='org.planificando.demo' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/demo/greet" class="org.planificando.server.GreetingServiceImpl" />
+
+</module>
